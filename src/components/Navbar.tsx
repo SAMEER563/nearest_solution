@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <div className="relative flex justify-between items-center p-4 bg-[#B7EFF8B2]">
       {/* Logo */}
-      <img src="./assets/logo.png" alt="Logo" width="100px" />
+      <img src="./assets/logo.png" alt="Logo" width="80px" />
 
       {/* Hamburger button for mobile */}
       <button 
@@ -25,7 +25,7 @@ const Navbar = () => {
         <Link href="/about" className="block px-4 py-2">ABOUT</Link>
         <Link href="/services" className="block px-4 py-2">SERVICES</Link>
         <Link href="/contact" className="block px-4 py-2">CONTACT US</Link>
-        <button className="border border-black p-4 w-40 rounded-full mt-2">NEWS</button>
+        <button className="border border-black p-3  w-36 rounded-full mt-2">NEWS</button>
       </div>
 
       {/* Navigation for medium and larger devices (md and up) */}
@@ -34,7 +34,7 @@ const Navbar = () => {
         <Link href="/about" className="px-4 py-2">ABOUT</Link>
         <Link href="/services" className="px-4 py-2">SERVICES</Link>
         <Link href="/contact" className="px-4 py-2">CONTACT US</Link>
-        <button className="border border-black p-4 w-40 rounded-full">NEWS</button>
+        <button className="border border-black p-3  w-36 rounded-full">NEWS</button>
       </div>
     </div>
   );

@@ -5,7 +5,7 @@ const About = () => {
    <>
     <div className="flex justify-between items-center p-4 min-h-screen bg-[#d2edf2b2]">
       <div className="flex flex-col space-y-20">
-        <button className="border border-black p-4 w-44 rounded-full font-medium text-lg">About Us</button>
+        <button className="border border-black p-3  w-36 rounded-full">About Us</button>
         
         <p className="tracking-wider text-lg ">
           At Nearest Solutions, we&apos;re passionate about simplifying life and enhancing productivity <br className='hidden md:block' /> through cutting-edge technology. Our goal is to provide you with intuitive tools that <br className='hidden md:block' /> empower you to  create, organize, and communicate effortlessly. Whether you&apos;re a <br className='hidden md:block' /> business professional, a traveler, or someone  looking to streamline everyday tasks, we <br className='hidden md:block' /> have something for you.
