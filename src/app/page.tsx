@@ -1,4 +1,7 @@
 import About from '@/pages/About'
+import ChooseUs from '@/pages/ChooseUs'
+import ServicesCarousel from '@/pages/Service'
+
 import React from 'react'
 
 const page = () => {
@@ -20,6 +23,9 @@ const page = () => {
     </div>
     </div>
     <About />
+   <ServicesCarousel />
+   <ChooseUs />
+    
     </>
   )
 }
