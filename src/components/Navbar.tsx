@@ -25,16 +25,16 @@ const Navbar = () => {
         <Link href="/about" className="block px-4 py-2">ABOUT</Link>
         <Link href="/services" className="block px-4 py-2">SERVICES</Link>
         <Link href="/contact" className="block px-4 py-2">CONTACT US</Link>
-        <button className="border border-black p-3  w-36 rounded-full mt-2">NEWS</button>
+        <h2 className="border border-black px-6 py-2 w-28 rounded-full shadow-lg">NEWS</h2>
       </div>
 
       {/* Navigation for medium and larger devices (md and up) */}
-      <div className="hidden md:flex md:flex-row md:space-x-10 font-semibold md:items-center">
+      <div className="hidden md:flex md:flex-row md:space-x-10 font-semibold md:items-center ">
         <Link href="/" className="px-4 py-2">HOME</Link>
         <Link href="/about" className="px-4 py-2">ABOUT</Link>
         <Link href="/services" className="px-4 py-2">SERVICES</Link>
         <Link href="/contact" className="px-4 py-2">CONTACT US</Link>
-        <button className="border border-black p-3  w-36 rounded-full">NEWS</button>
+        <button className="border border-black px-6 py-2 w-36 rounded-full shadow-lg">NEWS</button>
       </div>
     </div>
   );
