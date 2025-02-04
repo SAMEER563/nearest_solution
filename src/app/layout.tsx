@@ -3,6 +3,7 @@ import type { Metadata } from 'next'
 // These styles apply to every route in the application
 import './globals.css'
 import Navbar from '@/components/Navbar'
+import Footer from '@/components/Footer'
  
 export const metadata: Metadata = {
   title: 'Nearest Solution',
@@ -18,7 +19,9 @@ export default function RootLayout({
     <html lang="en">
       <body>
       <Navbar />
-        {children}</body>
+        {children}
+        <Footer />
+        </body>
     </html>
   )
 }
