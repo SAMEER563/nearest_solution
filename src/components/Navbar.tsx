@@ -20,7 +20,7 @@ const Navbar = () => {
       </button>
 
       {/* Navigation for small devices (sm) */}
-      <div className={`absolute top-full left-0 w-full bg-[#B7EFF8B2] md:hidden transition-all duration-300 ease-in-out transform ${isMenuOpen ? 'block opacity-100 translate-y-0' : 'hidden opacity-0 translate-y-4'}`}>
+      <div className={`absolute top-full left-0 w-full  bg-[#B7EFF8B2] md:hidden transition-all duration-300 ease-in-out transform ${isMenuOpen ? 'block opacity-100 translate-y-0' : 'hidden opacity-0 translate-y-4'}`}>
         <Link href="/" className="block px-4 py-2">HOME</Link>
         <Link href="/about" className="block px-4 py-2">ABOUT</Link>
         <Link href="/services" className="block px-4 py-2">SERVICES</Link>

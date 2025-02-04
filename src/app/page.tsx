@@ -1,5 +1,7 @@
+import BackToTopButton from '@/components/BackToTop'
 import About from '@/pages/About'
 import ChooseUs from '@/pages/ChooseUs'
+import Contact from '@/pages/Contact'
 import ServicesCarousel from '@/pages/Service'
 
 import React from 'react'
@@ -25,6 +27,8 @@ const page = () => {
     <About />
    <ServicesCarousel />
    <ChooseUs />
+   <Contact />
+   <BackToTopButton />
     
     </>
   )
