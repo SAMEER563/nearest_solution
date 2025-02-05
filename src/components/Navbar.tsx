@@ -9,7 +9,9 @@ const Navbar = () => {
   return (
     <div className="relative flex justify-between items-center p-4 bg-[#B7EFF8B2]">
       {/* Logo */}
-      <img src="./assets/logo.png" alt="Logo" width="80px" />
+    <Link href="/">
+    <img src="./assets/logo.png" alt="Logo" width="80px" />
+    </Link>
 
       {/* Hamburger button for mobile */}
       <button 
