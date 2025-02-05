@@ -2,25 +2,29 @@
 
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
+import { link } from "fs";
 
 const services = [
   {
-    title: "GapsapMitro",
+    title: "FireBlog",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...",
+      "Blog app designed for users to create, publish, and share their own written content.",
     image: "./assets/1.png", // Replace with your actual image path
+    link: "https://blog.nearestsolution.com/"
   },
   {
-    title: "Service Two",
+    title: "Nearest Solutions",
     description:
-      "Another example of dummy text to showcase the carousel effect with auto-sliding...",
+      "It is our website where we provide services like web development, app development, and UI/UX design services.",
     image: "./assets/2.png",
+    link: "https://www.nearestsolutions.in/"
   },
   {
-    title: "Service Three",
+    title: "MY QR Generator",
     description:
-      "This service is the third in the lineup, giving more variety and depth to your offerings...",
+      "This app is used to genrate QR code for any link or text.",
     image: "./assets/3.png",
+    link: "https://myqrgene2.netlify.app/"
   },
 ];
 
@@ -68,9 +72,15 @@ export default function ServicesCarousel() {
               <p className="text-sm text-gray-600">{services[currentIndex].description}</p>
             </div>
           </div>
-          <button className="mt-4 px-6 py-2 bg-black text-white rounded-full shadow-md">
-            Visit →
-          </button>
+          <a
+            href={services[currentIndex].link}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className="mt-4 px-6 py-2 bg-black text-white rounded-full shadow-md">
+              Visit →
+            </button>
+          </a>
         </motion.div>
       </div>
 
