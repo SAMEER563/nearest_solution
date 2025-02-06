@@ -9,7 +9,7 @@ import React from 'react'
 const page = () => {
   return (
     <>
-    <div className='flex justify-between items-center p-4 bg-[#B7EFF8B2] rounded-tl-3xl min-h-screen rounded-tr-3xl mt-3'>
+    <div className='flex justify-between items-center p-4 bg-[#B7EFF8B2] rounded-tl-[100px]  min-h-screen rounded-tr-[100px] mt-5'>
     <div className="flex flex-col space-y-14 ">
      <p className=' text-base'>Your One - Step Plateform for</p>
          <h1 className='space-y-10 font-bold text-3xl md:text-5xl'>ALL YOUR NEEDS</h1>
