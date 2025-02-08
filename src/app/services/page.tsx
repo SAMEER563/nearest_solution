@@ -3,7 +3,7 @@ import React from 'react';
 const page = () => {
   return (
     <>
-      <div className="bg-black min-h-[470vh] md:min-h-[200vh] lg:min-h-[260vh] m-4 sm:m-6 lg:m-10 rounded-2xl inset-shadow-sm inset-shadow-indigo-500 text-white">
+      <div className="bg-black min-h-[510vh] md:min-h-[200vh] lg:min-h-[260vh] m-4 sm:m-6 lg:m-10 rounded-2xl inset-shadow-sm inset-shadow-indigo-500 text-white">
         <div className="ml-4">
           <h1 className="text-3xl sm:text-4xl font-semibold pt-10">Our Services | Nearest Solutions</h1>
           <p className="tracking-wider mt-6 text-base sm:text-lg">
