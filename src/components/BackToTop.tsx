@@ -34,7 +34,7 @@ const BackToTopButton: React.FC = () => {
       {isVisible && (
         <button
           onClick={scrollToTop }
-          className="fixed bottom-[10px] md:bottom-16 right-4 p-3 rounded-full  transition-all duration-300 ease-in-out"
+          className="fixed bottom-[70px] md:bottom-24 right-4 p-3 rounded-full  transition-all duration-300 ease-in-out"
           aria-label="Back to top"
         >
           {/* Image for the Up Arrow */}
